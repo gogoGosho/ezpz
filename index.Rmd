@@ -1,7 +1,8 @@
 --- 
-title: "Easy Peasy Method"
-author: "i did it:)"
-date: "`r Sys.Date()`"
+title: "HackBookEasyPeasy - EasyPeasyWay"
+subtitle: "https://sites.google.com/site/hackbookeasypeasy/home"
+author: "hack-author"
+#date: "`r Sys.Date()`"
 output:
   bookdown::gitbook:
     config:
@@ -18,60 +19,49 @@ output:
       number_sections: true
       fig_caption: false
       latex_engine: xelatex
-
 documentclass: book
 bibliography:
 - book.bib
 - packages.bib
 description: |
-  This is a minimal example of using the bookdown package to write a book.
-  set in the _output.yml file.
-  The HTML output format for this example is bookdown::gitbook,
+  The original hackbook easy peasy in bookdown format.,
 link-citations: yes
-github-repo: "rstudio/bookdown-demo"
+github-repo: "gogogosho/ezpz"
 site: bookdown::bookdown_site
 # cp -TRv _book docs
 ---
-# About
-# test new cp command idk
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
 
-## Usage 
+# Introduction {-}
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+<!-- **Port of the original hackbook easy peasy (google sites one)** -->
+<!-- comments with ctrl + shift + c -->
+*I am Allen Carr. I am also not Allen Carr. So yes I am not the author. I am the hack-author*
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+*I hacked Allen Carr’s book and his method of de-addiction to adapt it for PMO.	Why? Because his method helped me in getting rid of cigarettes, alcohol and then	PMO. Why did I hack his work? Because he is dead now. And the institution that he had	formed does not list Internet pornography as one of the addictions that it provides	services for. I don't gain monetarily or otherwise. Above all - you won’t ‘find’ me in this	book. Myself and Allen will appear and disappear in this book to provide you with an	unique and effective method to get your mind de-addicted.*
+<br/><br/>
+<center>
+**IMPORTANT ADVICE FOR YOU!**<br/>
 
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+**DO NOT JUMP CHAPTERS!**<br/>
 
-## Render book
+**THE NUMBERS TO UNLOCK THE COMBO LOCK SHOULD BE USED IN THE GIVEN SEQUENCE!**
+</center>
+<br/><br/>
+*The common thread running through Allen Carr's work is the removal of fear. Indeed, his genius lies in eliminating the phobias and anxieties which prevent people from being able to enjoy life to the full, as his best-selling books vividly demonstrate. His method is solid and has high success rates. It helped cure me of not one but three addictions. There is a network of clinics that uses his methods that span the globe and has a phenomenal reputation for success in helping people to quit addictions (except PMO). Their success rate is over 95\% with money-back guarantees.*
 
-You can render the HTML version of this example book without changing anything:
+**Hackbook: A book based and hacked from another book. The original author is credited fully.**
+<br/><br/>
 
-1. Find the **Build** pane in the RStudio IDE, and
+<center>
+**IMPORTANT ADVICE FOR YOU!**<br/>
 
-1. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
+**DO NOT JUMP CHAPTERS!**<br/>
 
-Or build the book from the R console:
+**THE NUMBERS TO UNLOCK THE COMBO LOCK SHOULD BE USED IN THE GIVEN SEQUENCE!**
+</center>
 
-```{r, eval=FALSE}
-bookdown::render_book()
-```
+<br/><br/>
+*Dr. Albert Ellis' autobiography - "All Out!"*
 
-To render this example to PDF as a `bookdown::pdf_book`, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
-
-## Preview book
-
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
-
-```{r eval=FALSE}
-bookdown::serve_book()
-```
-
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+_“I used to wrongly think that most of them (addicts) were aided by self-help groups like AA, by therapy, or some other real support. But no. The facts show that more people surrender their addictions on their own-without any notable help from others. How? Mainly by **seeing, acknowledging, and emphasizing** how hard it is **not** to stop and how much **easier** it is-in the long run- to suffer through the withdrawal process.”_
+	
