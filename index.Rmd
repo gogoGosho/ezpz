@@ -1,8 +1,24 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "Easy Peasy Method"
+author: "i did it:)"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
+output:
+  bookdown::gitbook:
+    config:
+      sharing: false
+      fontsettings:
+        theme: night
+        family: sans
+        size: 2
+    fig_caption: false
+  pdf_document:
+    includes:
+      in_header: preamble.tex
+      toc: true
+      number_sections: true
+      fig_caption: false
+      latex_engine: xelatex
+
 documentclass: book
 bibliography:
 - book.bib
@@ -13,6 +29,7 @@ description: |
   The HTML output format for this example is bookdown::gitbook,
 link-citations: yes
 github-repo: "rstudio/bookdown-demo"
+site: bookdown::bookdown_site
 # cp -TRv _book docs
 ---
 # About
