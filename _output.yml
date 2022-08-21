@@ -6,7 +6,7 @@ bookdown::gitbook:
         <li><a href="./">EasyPeasyWay</a></li>
       after: |
         <li><a href="https://github.com/gogoGosho/ezpz" target="blank">Source code</a></li>
-    edit: https://github.com/gogoGosho/ezpz/edit/BRANCH/%s
+    edit: https://github.com/gogoGosho/ezpz/blob/main/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
