@@ -29,6 +29,7 @@ link-citations: yes
 github-repo: "gogogosho/ezpz"
 site: bookdown::bookdown_site
 # cp -TRv _book docs
+# file.create('.nojekyll') 
 ---
 
 # Introduction {-}
